@@ -185,10 +185,24 @@ header.masthead {
   background-size: cover;
 }
 
+header#test.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../img/header-bg4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
 }
+
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 22px;
